@@ -22,6 +22,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://portal.dev-loyaltyit.com/')
 
+WebUI.delay(25)
+
 WebUI.setText(findTestObject('Object Repository/testshane/Page_LIT.Portal.UI/input_Email Address_txt-login'), 'sab@gmail')
 
 WebUI.setText(findTestObject('Object Repository/testshane/Page_LIT.Portal.UI/input_Password_txt-password'), 'ss123')
