@@ -18,14 +18,14 @@
          <value>//input[@id='txt-login']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:attr=[placeholder=&quot;Email Address&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>89421615-cd95-45db-aba4-5b4f80f2468c</webElementGuid>
+      <webElementGuid>3f3aca2b-f26b-48ff-b289-1b8536a6d88f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control form-control</value>
-      <webElementGuid>67f16735-bb50-4fae-8099-49dfb45395c8</webElementGuid>
+      <webElementGuid>47de6fbd-dd8a-4e39-8f58-1e80333ead55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Email Address</value>
-      <webElementGuid>a4beadac-bb7e-4a11-bbd4-1c16eb24e324</webElementGuid>
+      <webElementGuid>d9ea1131-5abb-4431-8108-0000cce122a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txt-login</value>
-      <webElementGuid>c0ca16a3-f154-411d-b876-8bfc2882d770</webElementGuid>
+      <webElementGuid>6f0a06ab-2c12-41ea-9711-69e0438586ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txt-login&quot;)</value>
-      <webElementGuid>bbc4c5ef-919a-4704-842a-14b4adae0106</webElementGuid>
+      <webElementGuid>0379e550-8611-495a-b62f-e8e92365c3fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txt-login']</value>
-      <webElementGuid>8cd363bf-ee36-4bff-8ab3-adc9e728cacd</webElementGuid>
+      <webElementGuid>e2c4ed80-dbe0-4119-b0e6-2c4bc056f938</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div[2]/div/main/div/div[2]/form/div/div/div/div/input</value>
-      <webElementGuid>60b9e120-e1a3-46ca-8a9c-1addd899acc0</webElementGuid>
+      <webElementGuid>4c150487-824c-47fd-99f8-946690c5f1d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>e049074f-d1fc-4662-9b43-25153bc94650</webElementGuid>
+      <webElementGuid>bbc19420-44a2-4d1d-9c5d-670fb96f659c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Email Address' and @id = 'txt-login']</value>
-      <webElementGuid>2f975290-c560-4bd6-89b2-de28e1a92fe8</webElementGuid>
+      <webElementGuid>0283617d-1d50-4cfc-84ea-050f7679a0b1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
