@@ -28,3 +28,4 @@ WebUI.setText(findTestObject('Object Repository/testshane/Page_LIT.Portal.UI/inp
 
 WebUI.closeBrowser()
 
+ 
