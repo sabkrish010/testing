@@ -31,7 +31,7 @@ class NewTestListener {
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
-		i = 25
+		//i = 25
 	}
 
 	/**
