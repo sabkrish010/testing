@@ -1,0 +1,57 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2759
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red204\green108\blue29;\red170\green170\blue170;\red217\green232\blue247;
+\red230\green230\blue250;\red150\green236\blue63;\red18\green144\blue195;\red204\green129\blue186;\red128\green242\blue246;
+\red249\green250\blue244;\red23\green198\blue163;\red128\green128\blue128;\red243\green236\blue121;\red167\green236\blue33;
+\red62\green171\blue230;}
+{\*\expandedcolortbl;;\csgenericrgb\c80000\c42353\c11373;\csgenericrgb\c66667\c66667\c66667;\csgenericrgb\c85098\c90980\c96863;
+\csgenericrgb\c90196\c90196\c98039;\csgenericrgb\c58824\c92549\c24706;\csgenericrgb\c7059\c56471\c76471;\csgenericrgb\c80000\c50588\c72941;\csgenericrgb\c50196\c94902\c96471;
+\csgenericrgb\c97647\c98039\c95686;\csgenericrgb\c9020\c77647\c63922;\csgenericrgb\c50196\c50196\c50196;\csgenericrgb\c95294\c92549\c47451;\csgenericrgb\c65490\c92549\c12941;
+\csgenericrgb\c24314\c67059\c90196;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs22 \cf2 import\cf3  \cf2 static\cf3  \cf4 com\cf5 .\cf4 kms\cf5 .\cf4 katalon\cf5 .\cf4 core\cf5 .\cf4 checkpoint\cf5 .\cf4 CheckpointFactory\cf5 .\cf6 findCheckpoint\cf0 \
+\cf2 import\cf3  \cf2 static\cf3  \cf4 com\cf5 .\cf4 kms\cf5 .\cf4 katalon\cf5 .\cf4 core\cf5 .\cf4 testcase\cf5 .\cf4 TestCaseFactory\cf5 .\cf6 findTestCase\cf0 \
+\cf2 import\cf3  \cf2 static\cf3  \cf4 com\cf5 .\cf4 kms\cf5 .\cf4 katalon\cf5 .\cf4 core\cf5 .\cf4 testdata\cf5 .\cf4 TestDataFactory\cf5 .\cf6 findTestData\cf0 \
+\cf2 import\cf3  \cf2 static\cf3  \cf4 com\cf5 .\cf4 kms\cf5 .\cf4 katalon\cf5 .\cf4 core\cf5 .\cf4 testobject\cf5 .\cf4 ObjectRepository\cf5 .\cf6 findTestObject\cf0 \
+\cf2 import\cf3  \cf2 static\cf3  \cf4 com\cf5 .\cf4 kms\cf5 .\cf4 katalon\cf5 .\cf4 core\cf5 .\cf4 testobject\cf5 .\cf4 ObjectRepository\cf5 .\cf6 findWindowsObject\cf0 \
+\cf2 import\cf3  \cf7 com.kms.katalon.core.checkpoint.Checkpoint\cf3  \cf2 as\cf3  \cf4 Checkpoint\cf0 \
+\cf2 import\cf3  \cf4 com\cf5 .\cf4 kms\cf5 .\cf4 katalon\cf5 .\cf4 core\cf5 .\cf4 cucumber\cf5 .\cf4 keyword\cf5 .\cf4 CucumberBuiltinKeywords\cf3  \cf2 as\cf3  \cf4 CucumberKW\cf0 \
+\cf2 import\cf3  \cf4 com\cf5 .\cf4 kms\cf5 .\cf4 katalon\cf5 .\cf4 core\cf5 .\cf4 mobile\cf5 .\cf4 keyword\cf5 .\cf4 MobileBuiltInKeywords\cf3  \cf2 as\cf3  \cf4 Mobile\cf0 \
+\cf2 import\cf3  \cf8 com.kms.katalon.core.model.FailureHandling\cf3  \cf2 as\cf3  \cf4 FailureHandling\cf0 \
+\cf2 import\cf3  \cf7 com.kms.katalon.core.testcase.TestCase\cf3  \cf2 as\cf3  \cf4 TestCase\cf0 \
+\cf2 import\cf3  \cf9 com.kms.katalon.core.testdata.TestData\cf3  \cf2 as\cf3  \cf4 TestData\cf0 \
+\cf2 import\cf3  \cf4 com\cf5 .\cf4 kms\cf5 .\cf4 katalon\cf5 .\cf4 core\cf5 .\cf4 testng\cf5 .\cf4 keyword\cf5 .\cf4 TestNGBuiltinKeywords\cf3  \cf2 as\cf3  \cf4 TestNGKW\cf0 \
+\cf2 import\cf3  \cf7 com.kms.katalon.core.testobject.TestObject\cf3  \cf2 as\cf3  \cf4 TestObject\cf0 \
+\cf2 import\cf3  \cf4 com\cf5 .\cf4 kms\cf5 .\cf4 katalon\cf5 .\cf4 core\cf5 .\cf4 webservice\cf5 .\cf4 keyword\cf5 .\cf4 WSBuiltInKeywords\cf3  \cf2 as\cf3  \cf4 WS\cf0 \
+\cf2 import\cf3  \cf4 com\cf5 .\cf4 kms\cf5 .\cf4 katalon\cf5 .\cf4 core\cf5 .\cf4 webui\cf5 .\cf4 common\cf5 .\cf4 WebUiCommonHelper\cf0 \
+\cf2 import\cf3  \cf4 com\cf5 .\cf4 kms\cf5 .\cf4 katalon\cf5 .\cf4 core\cf5 .\cf4 webui\cf5 .\cf4 driver\cf5 .\cf4 DriverFactory\cf0 \
+\cf2 import\cf3  \cf4 com\cf5 .\cf4 kms\cf5 .\cf4 katalon\cf5 .\cf4 core\cf5 .\cf4 webui\cf5 .\cf4 keyword\cf5 .\cf4 WebUiBuiltInKeywords\cf3  \cf2 as\cf3  \cf4 WebUI\cf0 \
+\cf2 import\cf3  \cf4 com\cf5 .\cf4 kms\cf5 .\cf4 katalon\cf5 .\cf4 core\cf5 .\cf4 windows\cf5 .\cf4 keyword\cf5 .\cf4 WindowsBuiltinKeywords\cf3  \cf2 as\cf3  \cf4 Windows\cf0 \
+\cf2 import\cf3  \cf4 internal\cf5 .\cf4 GlobalVariable\cf0 \
+\cf2 import\cf3  \cf4 org\cf5 .\cf4 openqa\cf5 .\cf4 selenium\cf5 .\cf4 By\cf0 \
+\cf2 import\cf3  \cf4 org\cf5 .\cf4 openqa\cf5 .\cf4 selenium\cf5 .\cf4 JavascriptExecutor\cf0 \
+\cf2 import\cf3  \cf4 org\cf5 .\cf4 openqa\cf5 .\cf4 selenium\cf5 .\cf4 Keys\cf0 \
+\cf2 import\cf3  \cf4 org\cf5 .\cf4 openqa\cf5 .\cf4 selenium\cf5 .\cf4 WebDriver\cf0 \
+\cf2 import\cf3  \cf4 org\cf5 .\cf4 openqa\cf5 .\cf4 selenium\cf5 .\cf4 WebElement\cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf7 WebUI\cf5 .\cf6 openBrowser\cf10 (\cf11 ''\cf10 )\cf0 \
+\
+\cf7 WebUI\cf5 .\cf6 navigateToUrl\cf10 (\cf11 'https://forum.katalon.com/'\cf10 )\cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf12 //WebUI.click(findTestObject('Object Repository/Page_Katalon Community - Discuss, learn, an_96da7d/input_Welcome to Katalon Community_search-term'))\cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf9 WebDriver\cf3  \cf13 driver\cf3  \cf5 =\cf3  \cf7 DriverFactory\cf5 .\cf6 getWebDriver\cf10 ()\cf0 \
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf12 // Click Login Button\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf9 WebElement\cf3  \cf13 loginButton\cf3  \cf5 =\cf3  \cf13 driver\cf5 .\cf14 findElement\cf10 (\cf15 By\cf5 .\cf6 xpath\cf10 (\cf11 "//span[.='Log In']"\cf10 ))\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf7 WebUI\cf5 .\cf6 executeJavaScript\cf10 (\cf11 "arguments[0].click()"\cf5 ,\cf3  \cf7 Arrays\cf5 .\cf6 asList\cf10 (\cf13 loginButton\cf10 ))}
