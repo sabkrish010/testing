@@ -28,6 +28,6 @@ WebUI.setText(findTestObject('Object Repository/testshane/Page_LIT.Portal.UI/inp
 
 WebUI.setText(findTestObject('Object Repository/testshane/Page_LIT.Portal.UI/input_Password_txt-password'), 'ss123')
 
-WebUI.closeBrowser()
+WebUI.closeBrowser() 
 
  
