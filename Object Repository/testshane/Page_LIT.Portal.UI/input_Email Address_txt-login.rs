@@ -6,22 +6,26 @@
    <elementGuidId>cf0a2d33-40dd-4139-bf1a-6ecd656b3064</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='txt-login']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#txt-login</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'txt-login']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='txt-login']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:attr=[placeholder=&quot;Email Address&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>57cc1593-9892-4b40-8200-bc118b5da347</webElementGuid>
+      <webElementGuid>89421615-cd95-45db-aba4-5b4f80f2468c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +41,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control form-control</value>
-      <webElementGuid>464f2e31-91a9-4f45-8618-566f10676c3c</webElementGuid>
+      <webElementGuid>67f16735-bb50-4fae-8099-49dfb45395c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Email Address</value>
-      <webElementGuid>fd8e8716-11d2-45fa-90b7-6e40a6710c6f</webElementGuid>
+      <webElementGuid>a4beadac-bb7e-4a11-bbd4-1c16eb24e324</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>id</name>
       <type>Main</type>
       <value>txt-login</value>
-      <webElementGuid>1de149f9-e714-4e6e-bb17-44754a9d80cd</webElementGuid>
+      <webElementGuid>c0ca16a3-f154-411d-b876-8bfc2882d770</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;txt-login&quot;)</value>
-      <webElementGuid>8596e5ad-89f0-4847-9c2f-d44af781cb12</webElementGuid>
+      <webElementGuid>bbc4c5ef-919a-4704-842a-14b4adae0106</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='txt-login']</value>
-      <webElementGuid>a2e685ad-d371-4b11-857e-d8140cf3e8a5</webElementGuid>
+      <webElementGuid>8cd363bf-ee36-4bff-8ab3-adc9e728cacd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div[2]/div/main/div/div[2]/form/div/div/div/div/input</value>
-      <webElementGuid>42e3789c-d8de-4dfe-9928-8302a21aacab</webElementGuid>
+      <webElementGuid>60b9e120-e1a3-46ca-8a9c-1addd899acc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>c747ba81-97ce-4bf4-9d5f-d8dfd5c21549</webElementGuid>
+      <webElementGuid>e049074f-d1fc-4662-9b43-25153bc94650</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Email Address' and @id = 'txt-login']</value>
-      <webElementGuid>85752a3e-c839-4ec8-acdf-11303d78ed71</webElementGuid>
+      <webElementGuid>2f975290-c560-4bd6-89b2-de28e1a92fe8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
